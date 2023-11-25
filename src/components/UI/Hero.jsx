@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className='pt-0' id='about'>
         <div className="container pt-14">
-            <div className="md:flex items-center justify-between sm:flex-col cd:flex-row">
+            <div className="md:flex items-center justify-between cd:flex-row">
                 <div className="w-full md:basis-1/2">
                     <h5 data-aos="fade-right" data-aos-duration="1500" className='text-headingColor font-[600] text-[16px]'>
                         Hello welcome
@@ -40,9 +40,7 @@ const Hero = () => {
                         <span>
                             <i className='ri-apps-2-line'></i>
                         </span>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nisi quas aspernatur quae, 
-                        non molestias omnis maxime itaque nemo, explicabo quo earum voluptatibus, porro cumque debitis 
-                        dolore qui exercitationem similique.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minus, suscipit cupiditate sequi a vero repudiandae impedit officia quasi! Possimus quia quas, veniam modi similique nobis perferendis voluptas unde sed.
                     </p>
 
                     <div className="flex items-center gap-9 mt-14">
@@ -74,10 +72,41 @@ const Hero = () => {
                         </span>
                     </div>
                 </div>
+                
                 <div className="basis-1/3 mt-10 sm:mt-0">
                     <figure className='flex items-center justify-center'>
                         <img src={heroImg} alt="" />
                     </figure>
+                </div>
+
+                <div className="md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end">
+                    <div className="mb-10">
+                        <h2 className="text-headingColor font-[700] text-[32px]">
+                            <CountUp start={0} end={6} duration={2} suffix='+'/>
+                        </h2>
+                        <h4 className='text-headingColor font-[600] text-[18px]'>Years of Experience</h4>
+                    </div>
+
+                    <div className="mb-10">
+                        <h2 className="text-headingColor font-[700] text-[32px]">
+                            <CountUp start={0} end={100} duration={2} suffix='%'/>
+                        </h2>
+                        <h4 className='text-headingColor font-[600] text-[18px]'>Success Rate</h4>
+                    </div>
+
+                    <div className="mb-10">
+                        <h2 className="text-headingColor font-[700] text-[32px]">
+                            <CountUp start={0} end={150} duration={2} suffix='+'/>
+                        </h2>
+                        <h4 className='text-headingColor font-[600] text-[18px]'>Happy Clients</h4>
+                    </div>
+
+                    <div className="mb-10">
+                        <h2 className="text-headingColor font-[700] text-[32px]">
+                            <CountUp start={0} end={249} duration={2} suffix='+'/>
+                        </h2>
+                        <h4 className='text-headingColor font-[600] text-[18px]'>Project Completed</h4>
+                    </div>
                 </div>
             </div>
         </div>
