@@ -14,6 +14,20 @@ const Contact = () => {
                     <div className="mb-5">
                         <input type="text" placeholder='Enter your name' className='w-full p-3 focus:outline-none rounded-[5px]'/>
                     </div>
+
+                    <div className="mb-5">
+                        <input type="email" placeholder='Enter your email' className='w-full p-3 focus:outline-none rounded-[5px]'/>
+                    </div>
+
+                    <div className="mb-5">
+                        <input type="text" placeholder='Subject' className='w-full p-3 focus:outline-none rounded-[5px]'/>
+                    </div>
+
+                    <div className="mb-5">
+                        <textarea type="text" rows={3} placeholder='Write your message' className='w-full p-3 focus:outline-none rounded-[5px]'/>
+                    </div>
+
+                    <button className='w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white hover:bg-headingColor text-center ease-liner duration-150'>Send Message</button>
                 </form>
             </div>
         </div>
