@@ -35,7 +35,7 @@ const Portfolio = () => {
         }
     },[selectTab])
 
-  return <section id="portfolio">
+  return <section id="porfolio">
     <div className="container">
         <div className="flex items-center justify-between flex-wrap">
             <div className='mb-7 sm:mb-0'>
