@@ -34,7 +34,7 @@ section {
   left: 0;
   background: #FFF;
   box-shadow: 3px 3px -8px 3px #DDD;
-  z-index: 99;
+  z-index: 1;
 }
 
 @media only screen and (max-width: 768px) {
