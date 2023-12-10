@@ -40,7 +40,9 @@ const Hero = () => {
                         <span>
                             <i className='ri-apps-2-line'></i>
                         </span>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minus, suscipit cupiditate sequi a vero repudiandae impedit officia quasi! Possimus quia quas, veniam modi similique nobis perferendis voluptas unde sed.
+                        I am a web developer with 1 years of experience as a Front-end Developer. I also have ability to work as a Back-end Web Developer in many projects.
+                        With extensive knowledge of UI/UX design, I prefer to analyze, understand complex problems and generate appropriate technical solutions for user experience. 
+                        I am always learning from work and spend more time to learn new technology method to become a better engineer. 
                     </p>
 
                     <div className="flex items-center gap-9 mt-14">
@@ -91,7 +93,7 @@ const Hero = () => {
                         <h2 className="text-headingColor font-[700] text-[32px]">
                             <CountUp start={0} end={100} duration={2} suffix='%'/>
                         </h2>
-                        <h4 className='text-headingColor font-[600] text-[18px]'>Success Rate</h4>
+                        <h4 className='text-headingColor font-[600] text-[18px]'>Responsibilities</h4>
                     </div>
 
                     <div className="mb-10">
@@ -103,7 +105,7 @@ const Hero = () => {
 
                     <div className="mb-10">
                         <h2 className="text-headingColor font-[700] text-[32px]">
-                            <CountUp start={0} end={249} duration={2} suffix='+'/>
+                            <CountUp start={0} end={10} duration={2} suffix='+'/>
                         </h2>
                         <h4 className='text-headingColor font-[600] text-[18px]'>Project Completed</h4>
                     </div>
