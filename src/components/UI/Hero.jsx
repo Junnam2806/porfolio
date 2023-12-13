@@ -1,6 +1,7 @@
 import React from 'react'
 import heroImg from '../../assets/images/heroImg1.png'
 import CountUp from 'react-countup'
+import {facebookLink, githubLink} from '../../assets/data/socialDataLink'
 
 const Hero = () => {
   return (
@@ -23,24 +24,24 @@ const Hero = () => {
                         className="flex items-center gap-6 mt-7"
                     >
                         <a href="#contact">
-                            <button className='bg-primaryColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]'>
+                            <button className='bg-smallTextColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]'>
                                 <i className='ri-mail-line'></i> Hire me
                             </button>
                         </a>
 
-                        <a href="#portfolio" className='text-smallTextColor font[600] text-[16px] border-b border-solid border-smallTextColor'>
+                        <a href="#porfolio" className='text-smallTextColor font[600] text-[16px] border-b border-solid border-smallTextColor'>
                             See portfolio
                         </a>
                     </div>
                     <p 
                         data-aos="fade-left" 
                         data-aos-duration="1500" 
-                        className='flex gap-2 text-headingColor mt-12 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10'
+                        className='flex gap-2 text-headingColor mt-12 font-[500] text-[15px] leading-7 sm:pr-10 text-justify'
                     >
                         <span>
                             <i className='ri-apps-2-line'></i>
                         </span>
-                        I am a web developer with 1 years of experience as a Front-end Developer. I also have ability to work as a Back-end Web Developer in many projects.
+                        I am a web developer with more than one years of experience as a Front-end Developer. I also have ability to work as a Back-end Web Developer in many projects.
                         With extensive knowledge of UI/UX design, I prefer to analyze, understand complex problems and generate appropriate technical solutions for user experience. 
                         I am always learning from work and spend more time to learn new technology method to become a better engineer. 
                     </p>
@@ -50,25 +51,25 @@ const Hero = () => {
                             Follow me: 
                         </span>
                         <span>
-                            <a href="#youtube" className='text-smallTextColor text-[15px] font-[600]'>
+                            <a href={githubLink} className='text-smallTextColor text-[15px] font-[600]'>
                                 <i className='ri-youtube-line'></i>
                             </a>
                         </span>
 
                         <span>
-                            <a href="#youtube" className='text-smallTextColor text-[15px] font-[600]'>
+                            <a href={githubLink} className='text-smallTextColor text-[15px] font-[600]'>
                                 <i className='ri-github-fill'></i>
                             </a>
                         </span>
 
                         <span>
-                            <a href="#youtube" className='text-smallTextColor text-[15px] font-[600]'>
+                            <a href={facebookLink} className='text-smallTextColor text-[15px] font-[600]'>
                                 <i className='ri-facebook-line'></i>
                             </a>
                         </span>
 
                         <span>
-                            <a href="#youtube" className='text-smallTextColor text-[15px] font-[600]'>
+                            <a href={githubLink} className='text-smallTextColor text-[15px] font-[600]'>
                                 <i className='ri-instagram-line'></i>
                             </a>
                         </span>
@@ -98,9 +99,9 @@ const Hero = () => {
 
                     <div className="mb-10">
                         <h2 className="text-headingColor font-[700] text-[32px]">
-                            <CountUp start={0} end={150} duration={2} suffix='+'/>
+                            <CountUp start={0} end={1500} duration={2} suffix='+'/>
                         </h2>
-                        <h4 className='text-headingColor font-[600] text-[18px]'>Happy Clients</h4>
+                        <h4 className='text-headingColor font-[600] text-[18px]'>Hours Code</h4>
                     </div>
 
                     <div className="mb-10">
