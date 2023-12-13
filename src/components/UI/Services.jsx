@@ -29,7 +29,7 @@ const Services = () => {
                                 <div className="flex justify-start w-full mx-auto items-center">
                                     <div className="w-full sm:w-1/2 sm:pr-8">
                                         <div data-aos='fade-right' data-aos-duration='1200' className="bg-white p-4 rounded shadow hover:bg-primaryColor cursor-pointer ease-in duration-150">
-                                            <h3 className='text-primaryColor font-[700] mb-3 hover:text-white group-hover:font-[600] text-xl'>
+                                            <h3 className='text-smallTextColor font-[700] mb-3 hover:text-white group-hover:font-[600] text-xl'>
                                                 Frontend Development
                                             </h3>
 
@@ -57,7 +57,7 @@ const Services = () => {
                                 <div className="flex justify-end w-full mx-auto items-center">
                                     <div className="w-full sm:w-1/2 sm:pl-8">
                                         <div data-aos='fade-left' data-aos-duration='1300' data-aos-delay='50' className="bg-white p-4 rounded shadow hover:bg-primaryColor cursor-pointer ease-in duration-150">
-                                            <h3 className='text-primaryColor font-[700] mb-3 hover:text-white group-hover:font-[600] text-xl'>
+                                            <h3 className='text-smallTextColor font-[700] mb-3 hover:text-white group-hover:font-[600] text-xl'>
                                                 Apps Development
                                             </h3>
 
@@ -85,7 +85,7 @@ const Services = () => {
                                 <div className="flex justify-start w-full mx-auto items-center">
                                     <div className="w-full sm:w-1/2 sm:pr-8">
                                         <div data-aos='fade-right' data-aos-duration='1200' className="bg-white p-4 rounded shadow hover:bg-primaryColor cursor-pointer ease-in duration-150">
-                                            <h3 className='text-primaryColor font-[700] mb-3 hover:text-white group-hover:font-[600] text-xl'>
+                                            <h3 className='text-smallTextColor font-[700] mb-3 hover:text-white group-hover:font-[600] text-xl'>
                                                 Backend Development
                                             </h3>
 
@@ -113,14 +113,12 @@ const Services = () => {
                                 <div className="flex justify-end w-full mx-auto items-center">
                                     <div className="w-full sm:w-1/2 sm:pl-8">
                                         <div data-aos='fade-left' data-aos-duration='1200' data-aos-delay='100' className="bg-white p-4 rounded shadow hover:bg-primaryColor cursor-pointer ease-in duration-150">
-                                            <h3 className='text-primaryColor font-[700] mb-3 hover:text-white group-hover:font-[600] text-xl'>
+                                            <h3 className='text-smallTextColor font-[700] mb-3 hover:text-white group-hover:font-[600] text-xl'>
                                                 UI/UX Design
                                             </h3>
 
                                             <p className='text-[15px] text-smallTextColor hover:text-white group-hover:font[500] leading-7'>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quasi, necessitatibus maiores, 
-                                                dolor beatae temporibus fugiat veniam neque numquam corrupti, magnam in blanditiis aperiam obcaecati 
-                                                quibusdam incidunt expedita laudantium quae?
+                                            I specialize in Frontend, Backend, Mobile Development, and Data Analysis, showcasing a versatile skill set that spans the entire spectrum of technology. With my experience in crafting engaging user interfaces, building robust server-side architectures, creating mobile applications, and analyzing data for strategic insights, I bring a comprehensive approach to solving diverse challenges.
                                             </p>
                                         </div>
                                     </div>
