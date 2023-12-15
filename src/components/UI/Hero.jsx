@@ -51,26 +51,20 @@ const Hero = () => {
                             Follow me: 
                         </span>
                         <span>
-                            <a href={githubLink} className='text-smallTextColor text-[15px] font-[600]'>
+                            <a href={githubLink} target="_blank" rel="noreferrer" className='text-smallTextColor text-[15px] font-[600]'>
                                 <i className='ri-youtube-line'></i>
                             </a>
                         </span>
 
                         <span>
-                            <a href={githubLink} className='text-smallTextColor text-[15px] font-[600]'>
+                            <a href={githubLink} target="_blank" rel="noreferrer" className='text-smallTextColor text-[15px] font-[600]'>
                                 <i className='ri-github-fill'></i>
                             </a>
                         </span>
 
                         <span>
-                            <a href={facebookLink} className='text-smallTextColor text-[15px] font-[600]'>
-                                <i className='ri-facebook-line'></i>
-                            </a>
-                        </span>
-
-                        <span>
-                            <a href={githubLink} className='text-smallTextColor text-[15px] font-[600]'>
-                                <i className='ri-instagram-line'></i>
+                            <a href={facebookLink} target="_blank" rel="noreferrer" className='text-smallTextColor text-[15px] font-[600]'>
+                                <i class="ri-linkedin-fill"></i>
                             </a>
                         </span>
                     </div>
