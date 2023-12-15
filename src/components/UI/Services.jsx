@@ -13,7 +13,7 @@ import reduxLogo from '../../assets/images/reduxLogo.png'
 import cShapLogo from '../../assets/images/cshapLogo.png'
 import javaLogo from '../../assets/images/javaLogo.png'
 import androidLogo from '../../assets/images/androidLogo.png'
-import excelLogo from '../../assets/images/excelLogo.png'
+import sqlLogo from '../../assets/images/sqlLogo.png'
 import pythonLogo from '../../assets/images/pythonLogo.png'
 import biLogo from '../../assets/images/biLogo.png'
 
@@ -151,7 +151,7 @@ const Services = () => {
                                             </p>
 
                                             <div className='flex justify-center gap-5 mt-3'>
-                                                <img className='custome-img' src={excelLogo} alt="" />
+                                                <img className='custome-img' src={sqlLogo} alt="" />
                                                 <img className='custome-img' src={pythonLogo} alt="" />
                                                 <img className='custome-img' src={biLogo} alt="" />
                                             </div>

@@ -35,6 +35,15 @@ const Header = () => {
 
   const toggleMennu = () => menuRef.current.classList.toggle('show__menu')
 
+  // Lets talk function
+  const openNewWindow = () => {
+    const newWindow = window.open('https://zalo.me/0355904429', '_blank', 'noopener,noreferrer');
+
+    if (newWindow) {
+      newWindow.focus();
+    }
+  };
+
   return <header ref={headerRef} className='w-full h-[80px] leading-[80px] flex items-center'>
     <div className="container">
         <div className='flex items-center justify-between'>
@@ -59,7 +68,7 @@ const Header = () => {
             </div>
 
             <div className="flex items-center gap-4">
-              <button className='flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-500'>
+              <button onClick={openNewWindow} className='flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-500'>
                 <i className='ri-send-plane-line'></i> Let's Talk
               </button>
 
