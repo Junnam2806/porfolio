@@ -3,6 +3,19 @@ import frontendImg from '../../assets/images/front-end.png'
 import uiImg from '../../assets/images/design.png'
 import backendImg from '../../assets/images/backend.png'
 import appsImg from '../../assets/images/apps.png'
+import htmlLogo from '../../assets/images/htmlLogo.png'
+import cssLogo from '../../assets/images/cssLogo.png'
+import jsLogo from '../../assets/images/jsLogo.png'
+import bootstrapLogo from '../../assets/images/bootstrapLogo.png'
+import tailwindLogo from '../../assets/images/tailwindLogo.png'
+import reactLogo from '../../assets/images/reactLogo.png'
+import reduxLogo from '../../assets/images/reduxLogo.png'
+import cShapLogo from '../../assets/images/cshapLogo.png'
+import javaLogo from '../../assets/images/javaLogo.png'
+import androidLogo from '../../assets/images/androidLogo.png'
+import excelLogo from '../../assets/images/excelLogo.png'
+import pythonLogo from '../../assets/images/pythonLogo.png'
+import biLogo from '../../assets/images/biLogo.png'
 
 const Services = () => {
   return (
@@ -13,8 +26,8 @@ const Services = () => {
                     What do I help
                 </h2>
 
-                <p className='lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eligendi, reiciendis voluptates dignissimos facere vero, beatae deserunt autem, delectus at molestias tenetur? Enim molestias voluptatem illo ad aliquid laboriosam dolore!
+                <p className='lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7 text-justify'>
+                I specialize in Frontend, Backend, Mobile Development, and Data Analysis, showcasing a versatile skill set that spans the entire spectrum of technology. With my experience in crafting engaging user interfaces, building robust server-side architectures, creating mobile applications, and analyzing data for strategic insights, I bring a comprehensive approach to solving diverse challenges.
                 </p>
             </div>
 
@@ -33,11 +46,22 @@ const Services = () => {
                                                 Frontend Development
                                             </h3>
 
-                                            <p className='text-[15px] text-smallTextColor hover:text-white group-hover:font[500] leading-7'>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quasi, necessitatibus maiores, 
-                                                dolor beatae temporibus fugiat veniam neque numquam corrupti, magnam in blanditiis aperiam obcaecati 
-                                                quibusdam incidunt expedita laudantium quae?
+                                            <p className='text-[15px] text-smallTextColor hover:text-white group-hover:font[500] leading-7 text-justify'>
+                                                I personally have experience working with HTML, CSS and Javascript. I also used ReactJs and Redux library in some of my personal projects. Beside, I have ability to use Bootstrap and Tailwind in web development.
                                             </p>
+
+                                            <div className='flex justify-center gap-5 mt-3'>
+                                                <img className='custome-img' src={htmlLogo} alt="" />
+                                                <img className='custome-img' src={cssLogo} alt="" />
+                                                <img className='custome-img' src={jsLogo} alt="" />
+                                            </div>
+
+                                            <div className='flex justify-center gap-3 mt-3'>
+                                                <img className='custome-img' src={bootstrapLogo} alt="" />
+                                                <img className='custome-img' src={tailwindLogo} alt="" />
+                                                <img className='custome-img' src={reactLogo} alt="" />
+                                                <img className='custome-img' src={reduxLogo} alt="" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -58,14 +82,17 @@ const Services = () => {
                                     <div className="w-full sm:w-1/2 sm:pl-8">
                                         <div data-aos='fade-left' data-aos-duration='1300' data-aos-delay='50' className="bg-white p-4 rounded shadow hover:bg-primaryColor cursor-pointer ease-in duration-150">
                                             <h3 className='text-smallTextColor font-[700] mb-3 hover:text-white group-hover:font-[600] text-xl'>
-                                                Apps Development
+                                                Backend Development
                                             </h3>
 
-                                            <p className='text-[15px] text-smallTextColor hover:text-white group-hover:font[500] leading-7'>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quasi, necessitatibus maiores, 
-                                                dolor beatae temporibus fugiat veniam neque numquam corrupti, magnam in blanditiis aperiam obcaecati 
-                                                quibusdam incidunt expedita laudantium quae?
+                                            <p className='text-[15px] text-smallTextColor hover:text-white group-hover:font[500] leading-7 text-justify'>
+                                                I also work with C# to make a project for a national academic competition. In addition, I also use Java to develop mobile applications when I was in university.
                                             </p>
+
+                                            <div className='flex justify-center gap-5 mt-3'>
+                                                <img className='custome-img' src={cShapLogo} alt="" />
+                                                <img className='custome-img' src={javaLogo} alt="" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -86,14 +113,16 @@ const Services = () => {
                                     <div className="w-full sm:w-1/2 sm:pr-8">
                                         <div data-aos='fade-right' data-aos-duration='1200' className="bg-white p-4 rounded shadow hover:bg-primaryColor cursor-pointer ease-in duration-150">
                                             <h3 className='text-smallTextColor font-[700] mb-3 hover:text-white group-hover:font-[600] text-xl'>
-                                                Backend Development
+                                                Apps Development
                                             </h3>
 
-                                            <p className='text-[15px] text-smallTextColor hover:text-white group-hover:font[500] leading-7'>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quasi, necessitatibus maiores, 
-                                                dolor beatae temporibus fugiat veniam neque numquam corrupti, magnam in blanditiis aperiam obcaecati 
-                                                quibusdam incidunt expedita laudantium quae?
+                                            <p className='text-[15px] text-smallTextColor hover:text-white group-hover:font[500] leading-7 text-justify'>
+                                                I worked with Android Studio to develop Mobile Apps using Java.
                                             </p>
+
+                                            <div className='flex justify-center gap-5 mt-3'>
+                                                <img className='custome-img' src={androidLogo} alt="" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -114,12 +143,18 @@ const Services = () => {
                                     <div className="w-full sm:w-1/2 sm:pl-8">
                                         <div data-aos='fade-left' data-aos-duration='1200' data-aos-delay='100' className="bg-white p-4 rounded shadow hover:bg-primaryColor cursor-pointer ease-in duration-150">
                                             <h3 className='text-smallTextColor font-[700] mb-3 hover:text-white group-hover:font-[600] text-xl'>
-                                                UI/UX Design
+                                                Data Analyst
                                             </h3>
 
-                                            <p className='text-[15px] text-smallTextColor hover:text-white group-hover:font[500] leading-7'>
-                                            I specialize in Frontend, Backend, Mobile Development, and Data Analysis, showcasing a versatile skill set that spans the entire spectrum of technology. With my experience in crafting engaging user interfaces, building robust server-side architectures, creating mobile applications, and analyzing data for strategic insights, I bring a comprehensive approach to solving diverse challenges.
+                                            <p className='text-[15px] text-smallTextColor hover:text-white group-hover:font[500] leading-7 text-justify'>
+                                                My skill in handling diverse datasets and employing analytical tools is well-documented. I have extracted meaningful insights to presenting actionable recommendations. 
                                             </p>
+
+                                            <div className='flex justify-center gap-5 mt-3'>
+                                                <img className='custome-img' src={excelLogo} alt="" />
+                                                <img className='custome-img' src={pythonLogo} alt="" />
+                                                <img className='custome-img' src={biLogo} alt="" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
