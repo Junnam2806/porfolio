@@ -1,4 +1,5 @@
 import React from 'react'
+import {facebookLink, githubLink} from '../../assets/data/socialDataLink'
 
 const Footer = () => {
 
@@ -9,7 +10,7 @@ const Footer = () => {
       <div className="sm:flex items-center justify-between md:gap-8">
         <div className='w-full sm:w-1/2'>
           <h2 className='text-[26px] leading-10 text-white font-[600] mb-5 md:text-[2rem]'>
-            Do you want to make beautiful products ?
+            Let's connect and create something amazing together! 
           </h2>
 
           <a href="#contact">
@@ -20,32 +21,26 @@ const Footer = () => {
         </div>
 
         <div className="w-full sm:w-1/2">
-          <p className='text-gray-300 leading-7 mt-4 sm:mt-0'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, quos nesciunt iure pariatur quidem dolor reprehenderit ipsam animi error reiciendis consectetur porro repellendus voluptatibus facilis. Atque voluptatum dolores laudantium eveniet?</p>
+          <p className='text-gray-300 leading-7 mt-4 sm:mt-0'>Hello! I'm Nam Truong, a passionate and results-driven web developer with a keen eye for design. I thrive on creating engaging user experiences through innovative design and cutting-edge technology.</p>
 
           <div className='flex items-center gap-4 flex-wrap md:gap-8 mt-10'>
             <span className='text-gray-300 font-[600] text-[15px]'>Follow Me:</span>
 
-            <span className='w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded[[50px] cursor-pointer text-center'>
-              <a href="#github" className='text-gray-300 font-[500] text-[18px]'>
+            <span className='w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded[50px] cursor-pointer text-center'>
+              <a target="_blank" rel="noreferrer" href={githubLink} className='text-gray-300 font-[500] text-[18px]'>
                 <i className='ri-github-line'></i>
               </a>
             </span>
 
-            <span className='w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded[[50px] cursor-pointer text-center'>
-              <a href="#github" className='text-gray-300 font-[500] text-[18px]'>
+            <span className='w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded[50px] cursor-pointer text-center'>
+              <a target="_blank" rel="noreferrer" href={githubLink} className='text-gray-300 font-[500] text-[18px]'>
                 <i className='ri-youtube-line'></i>
               </a>
             </span>
 
-            <span className='w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded[[50px] cursor-pointer text-center'>
-              <a href="#github" className='text-gray-300 font-[500] text-[18px]'>
-                <i className='ri-facebook-line'></i>
-              </a>
-            </span>
-
-            <span className='w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded[[50px] cursor-pointer text-center'>
-              <a href="#github" className='text-gray-300 font-[500] text-[18px]'>
-                <i className='ri-instagram-line'></i>
+            <span className='w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded[50px] cursor-pointer text-center'>
+              <a target="_blank" rel="noreferrer" href={facebookLink} className='text-gray-300 font-[500] text-[18px]'>
+                <i className="ri-linkedin-fill"></i>
               </a>
             </span>
           </div>

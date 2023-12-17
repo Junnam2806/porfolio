@@ -1,150 +1,107 @@
-import portfolioImg01 from "../images/portfolio-01.jpg";
-import portfolioImg02 from "../images/portfolio-02.jpg";
-import portfolioImg03 from "../images/portfolio-03.jpg";
-import portfolioImg04 from "../images/portfolio-04.jpg";
-import portfolioImg05 from "../images/portfolio-05.jpg";
-import portfolioImg06 from "../images/portfolio-06.jpg";
-import portfolioImg07 from "../images/portfolio-07.jpg";
+import portfolioImg01 from "../images/portfolio1.png";
+import portfolioImg02 from "../images/portfolio2.png";
+import portfolioImg03 from "../images/portfolio3.png";
+import portfolioImg04 from "../images/portfolio4.png";
+import portfolioImg05 from "../images/portfolio5.png";
 
 const portfolios = [
   {
     id: "01",
     imgUrl: portfolioImg01,
     category: "Web Design",
-    title: "Finance Technology Website",
+    title: "Tour Booking Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "This is a Tour Booking website to help people choose destinations for their holidays",
+    technologies: ["React", "Node Js", "MongoDB"],
     siteUrl: "#",
   },
   {
     id: "02",
     imgUrl: portfolioImg04,
-    category: "Ux",
-    title: "Video Conference Website",
+    category: "Web Design",
+    title: "Car Showing Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "This is a website used to show cars with features such as Filter, Search and server-side rendering processing",
+    technologies: ["React", "Tailwind css", "Typescript", "Next JS 14"],
     siteUrl: "#",
   },
   {
     id: "03",
     imgUrl: portfolioImg02,
-    category: "Ux",
-    title: "Multimedia Sharing Website",
+    category: "Web Design",
+    title: "E-Commerce Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "This is a E-Commerce website which has some functions: Register, Login, Add products to cart, Checkout cart and Product Details",
+    technologies: ["React", "Redux Toolkit", "Firebase v9"],
     siteUrl: "#",
   },
   {
     id: "04",
     imgUrl: portfolioImg05,
-    category: "Web Design",
-    title: "Landing Page",
+    category: "Ux",
+    title: "Comestic Application UI",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "This is a UI/UX of a Android mobile application we have design to code this project.",
+    technologies: ["Figma"],
     siteUrl: "#",
   },
   {
     id: "05",
     imgUrl: portfolioImg03,
     category: "Web Design",
-    title: "Landing Page",
+    title: "Tour Booking Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+      "This also a destination showing project to help people book for their tour in holidays ",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
-
   {
     id: "06",
-    imgUrl: portfolioImg06,
-    category: "Ux",
-    title: "Online Therapy Website",
+    imgUrl: portfolioImg01,
+    category: "Web Design",
+    title: "Tour Booking Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "This is a Tour Booking website to help people choose destinations for their holidays",
+    technologies: ["React", "Node Js", "MongoDB"],
     siteUrl: "#",
   },
   {
     id: "07",
-    imgUrl: portfolioImg07,
+    imgUrl: portfolioImg04,
     category: "Web Design",
-    title: "Appointment Booking Website",
+    title: "Car Showing Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "This is a website used to show cars with features such as Filter, Search and server-side rendering processing",
+    technologies: ["React", "Tailwind css", "Typescript", "Next JS 14"],
     siteUrl: "#",
   },
   {
     id: "08",
-    imgUrl: portfolioImg01,
+    imgUrl: portfolioImg02,
     category: "Web Design",
-    title: "Finance Technology Website",
+    title: "E-Commerce Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "This is a E-Commerce website which has some functions: Register, Login, Add products to cart, Checkout cart and Product Details",
+    technologies: ["React", "Redux Toolkit", "Firebase v9"],
     siteUrl: "#",
   },
   {
     id: "09",
-    imgUrl: portfolioImg02,
+    imgUrl: portfolioImg05,
     category: "Ux",
-    title: "Video Conference Website",
+    title: "Comestic Application UI",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+      "This is a UI/UX of a Android mobile application we have design to code this project.",
+    technologies: ["Figma"],
     siteUrl: "#",
   },
   {
     id: "10",
     imgUrl: portfolioImg03,
-    category: "Ux",
-    title: "File Sharing Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "11",
-    imgUrl: portfolioImg04,
     category: "Web Design",
-    title: "Landing Page",
+    title: "Tour Booking Website",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "12",
-    imgUrl: portfolioImg05,
-    category: "Web Design",
-    title: "Landing Page",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "13",
-    imgUrl: portfolioImg06,
-    category: "Web Design",
-    title: "Online Therapy Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
-  },
-  {
-    id: "14",
-    imgUrl: portfolioImg07,
-    category: "ux",
-    title: "Appointment Booking Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+      "This also a destination showing project to help people book for their tour in holidays ",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
