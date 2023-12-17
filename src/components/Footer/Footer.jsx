@@ -1,5 +1,5 @@
 import React from 'react'
-import {facebookLink, githubLink} from '../../assets/data/socialDataLink'
+import {facebookLink, githubLink, zaloLink} from '../../assets/data/socialDataLink'
 
 const Footer = () => {
 
@@ -13,7 +13,7 @@ const Footer = () => {
             Let's connect and create something amazing together! 
           </h2>
 
-          <a href="#contact">
+          <a href={zaloLink} target='_blank' rel="noreferrer">
             <button className='bg-primaryColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]'>
               <i className='ri-mail-line'></i> Hire me
             </button>

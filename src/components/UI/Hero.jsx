@@ -1,7 +1,7 @@
 import React from 'react'
 import heroImg from '../../assets/images/heroImg1.png'
 import CountUp from 'react-countup'
-import {facebookLink, githubLink} from '../../assets/data/socialDataLink'
+import {facebookLink, githubLink, zaloLink} from '../../assets/data/socialDataLink'
 
 const Hero = () => {
   return (
@@ -23,7 +23,7 @@ const Hero = () => {
                         data-aos-delay="200"
                         className="flex items-center gap-6 mt-7"
                     >
-                        <a href="#contact">
+                        <a href={zaloLink} target='_blank' rel="noreferrer">
                             <button className='bg-smallTextColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]'>
                                 <i className='ri-mail-line'></i> Hire me
                             </button>
@@ -41,7 +41,7 @@ const Hero = () => {
                         <span>
                             <i className='ri-apps-2-line'></i>
                         </span>
-                        I am a web developer with more than one years of experience as a Front-end Developer. I also have ability to work as a Back-end Web Developer in many projects.
+                        I am a web developer with more than one year of experience as a Front-end Developer. I also have ability to work as a Back-end Web Developer in many projects.
                         With extensive knowledge of UI/UX design, I prefer to analyze, understand complex problems and generate appropriate technical solutions for user experience. 
                         I am always learning from work and spend more time to learn new technology method to become a better engineer. 
                     </p>
@@ -72,7 +72,7 @@ const Hero = () => {
                 
                 <div className="basis-1/3 mt-10 sm:mt-0">
                     <figure className='flex items-center justify-center'>
-                        <img src={heroImg} alt="" />
+                        <img data-aos="fade-up" data-aos-duration="1500" src={heroImg} alt="" />
                     </figure>
                 </div>
 

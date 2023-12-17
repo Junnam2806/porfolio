@@ -1,4 +1,5 @@
 import React, {useRef, useEffect} from 'react'
+import {zaloLink} from '../../assets/data/socialDataLink'
 
 const Header = () => {
 
@@ -37,7 +38,7 @@ const Header = () => {
 
   // Lets talk function
   const openNewWindow = () => {
-    const newWindow = window.open('https://zalo.me/0355904429', '_blank', 'noopener,noreferrer');
+    const newWindow = window.open(`${zaloLink}`, '_blank', 'noopener,noreferrer');
 
     if (newWindow) {
       newWindow.focus();
