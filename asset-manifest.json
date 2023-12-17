@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Junnam2806/porfolio/static/css/main.9132ecc8.css",
+    "main.js": "/Junnam2806/porfolio/static/js/main.5899360f.js",
+    "static/media/portfolio1.png": "/Junnam2806/porfolio/static/media/portfolio1.494087f2e319f875a9c5.png",
+    "static/media/portfolio3.png": "/Junnam2806/porfolio/static/media/portfolio3.822daedc21d7a22d0911.png",
+    "static/media/remixicon.svg?t=1690730386070": "/Junnam2806/porfolio/static/media/remixicon.db77551b8efc76571c4f.svg",
+    "static/media/portfolio4.png": "/Junnam2806/porfolio/static/media/portfolio4.645e43b073a172511f54.png",
+    "static/media/portfolio2.png": "/Junnam2806/porfolio/static/media/portfolio2.cba9002641205cc7e4e5.png",
+    "static/media/heroImg1.png": "/Junnam2806/porfolio/static/media/heroImg1.2630d5d773440b73de72.png",
+    "static/media/portfolio5.png": "/Junnam2806/porfolio/static/media/portfolio5.167f63ba8c07f68045fb.png",
+    "static/media/remixicon.eot?t=1690730386070": "/Junnam2806/porfolio/static/media/remixicon.53ec05edb4b6864b45b1.eot",
+    "static/media/remixicon.ttf?t=1690730386070": "/Junnam2806/porfolio/static/media/remixicon.4aa0fd158658e2a40e79.ttf",
+    "static/media/cshapLogo.png": "/Junnam2806/porfolio/static/media/cshapLogo.d8e9a9289dcc76d931b9.png",
+    "static/media/remixicon.woff?t=1690730386070": "/Junnam2806/porfolio/static/media/remixicon.affd60ca37df38cfee4f.woff",
+    "static/media/remixicon.woff2?t=1690730386070": "/Junnam2806/porfolio/static/media/remixicon.821a773710130bcf4674.woff2",
+    "static/media/sqlLogo.png": "/Junnam2806/porfolio/static/media/sqlLogo.753c3adb40e9d68fb78e.png",
+    "static/media/javaLogo.png": "/Junnam2806/porfolio/static/media/javaLogo.fdabd4e11f1235e4e8e0.png",
+    "static/media/tailwindLogo.png": "/Junnam2806/porfolio/static/media/tailwindLogo.9c2e5bcf4f97d73e438e.png",
+    "static/media/bootstrapLogo.png": "/Junnam2806/porfolio/static/media/bootstrapLogo.bb9b9d749d40e498f714.png",
+    "static/media/reactLogo.png": "/Junnam2806/porfolio/static/media/reactLogo.e71f4c5b0c4306d65355.png",
+    "static/media/reduxLogo.png": "/Junnam2806/porfolio/static/media/reduxLogo.6e33f40c03716c2f3a63.png",
+    "static/media/htmlLogo.png": "/Junnam2806/porfolio/static/media/htmlLogo.75f4bd59119c8461c00c.png",
+    "static/media/cssLogo.png": "/Junnam2806/porfolio/static/media/cssLogo.4a6549b8c2b4cda8bb88.png",
+    "static/media/jsLogo.png": "/Junnam2806/porfolio/static/media/jsLogo.3dfb665e058d08c99f28.png",
+    "index.html": "/Junnam2806/porfolio/index.html",
+    "main.9132ecc8.css.map": "/Junnam2806/porfolio/static/css/main.9132ecc8.css.map",
+    "main.5899360f.js.map": "/Junnam2806/porfolio/static/js/main.5899360f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9132ecc8.css",
+    "static/js/main.5899360f.js"
+  ]
+}
