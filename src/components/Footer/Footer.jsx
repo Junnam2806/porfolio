@@ -32,11 +32,11 @@ const Footer = () => {
               </a>
             </span>
 
-            <span className='w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded[50px] cursor-pointer text-center'>
+            {/* <span className='w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded[50px] cursor-pointer text-center'>
               <a target="_blank" rel="noreferrer" href={githubLink} className='text-gray-300 font-[500] text-[18px]'>
                 <i className='ri-youtube-line'></i>
               </a>
-            </span>
+            </span> */}
 
             <span className='w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded[50px] cursor-pointer text-center'>
               <a target="_blank" rel="noreferrer" href={facebookLink} className='text-gray-300 font-[500] text-[18px]'>

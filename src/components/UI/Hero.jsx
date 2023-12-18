@@ -50,11 +50,11 @@ const Hero = () => {
                         <span className='text-smallTextColor text-[15px] font-[600]'>
                             Follow me: 
                         </span>
-                        <span>
+                        {/* <span>
                             <a href={githubLink} target="_blank" rel="noreferrer" className='text-smallTextColor text-[15px] font-[600]'>
                                 <i className='ri-youtube-line'></i>
                             </a>
-                        </span>
+                        </span> */}
 
                         <span>
                             <a href={githubLink} target="_blank" rel="noreferrer" className='text-smallTextColor text-[15px] font-[600]'>
